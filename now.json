@@ -4,5 +4,8 @@
   "alias": ["howmanycompanieshasthedpcfined.ie", "www.howmanycompanieshasthedpcfined.ie"],
   "builds": [
   	{ "src": "public/*", "use": "@now/static" }  
+  ],
+  "routes": [
+  	{ "src": "/(.*)", "dest": "public/$1" }
   ]
 }
