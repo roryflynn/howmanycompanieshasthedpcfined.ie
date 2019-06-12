@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "howmanycompanieshasthedpcfined.ie",
+  "alias": ["howmanycompanieshasthedpcfined.ie", "www.howmanycompanieshasthedpcfined.ie"],
+  "builds": [
+  	{ "src": "public/*", "use": "@now/static" }  
+  ]
+}
